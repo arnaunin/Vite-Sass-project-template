@@ -1,5 +1,6 @@
 @use '/sass/abstracts/variables' as var;
 
+// Breakpoints for responsive pages
 @mixin breakpoint($bp) {
   @if $bp == tablet {
     @media (min-width: var.$bp-tablet) {
